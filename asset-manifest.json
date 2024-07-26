@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lotus/static/css/main.01d72633.css",
-    "main.js": "/lotus/static/js/main.7997376d.js",
+    "main.js": "/lotus/static/js/main.0d244fea.js",
     "static/js/453.5c66ac7d.chunk.js": "/lotus/static/js/453.5c66ac7d.chunk.js",
     "static/media/k2.jpg": "/lotus/static/media/k2.19d14d58f3272da7e5c3.jpg",
     "static/media/Bedroom2.jpg": "/lotus/static/media/Bedroom2.0ae972b6782e7f3d9551.jpg",
@@ -36,11 +36,11 @@
     "static/media/facebook (1).png": "/lotus/static/media/facebook (1).4f037d961598aff2a0a4.png",
     "index.html": "/lotus/index.html",
     "main.01d72633.css.map": "/lotus/static/css/main.01d72633.css.map",
-    "main.7997376d.js.map": "/lotus/static/js/main.7997376d.js.map",
+    "main.0d244fea.js.map": "/lotus/static/js/main.0d244fea.js.map",
     "453.5c66ac7d.chunk.js.map": "/lotus/static/js/453.5c66ac7d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01d72633.css",
-    "static/js/main.7997376d.js"
+    "static/js/main.0d244fea.js"
   ]
 }
