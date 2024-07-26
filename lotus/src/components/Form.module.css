@@ -1,0 +1,166 @@
+.con{
+    margin-top: 10rem;
+}
+.con form{
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    margin-top: 0.25rem;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.header {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.item {
+  font-size: 18px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.button {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.divs{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divsa{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  width:65%
+}
+
+.heading{
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.kd{
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.665), rgba(0, 0, 0, 0.665)),url('./../Assets/\/Bedroom3.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+}
+
+.form{
+ 
+  background-color:#ebebeb;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  gap:3rem;
+width:20rem;
+  padding:0rem;
+  padding-top: 2rem;
+  margin-left:-5rem
+
+}
+
+
+
+.form1{
+    margin-top: 7rem;
+ width:50rem;
+  background-color:#ebebeb;
+    padding-top: 1rem;
+
+
+}
+
+
+@media screen and (max-width:768px) {
+
+ .divs{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divsa{
+  display:flex;
+   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width:65%
+}
+
+.heading{
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.kd{
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.665), rgba(0, 0, 0, 0.665)),url('./../Assets/\/Bedroom3.jpg');
+      background-repeat: no-repeat;
+      background-size: contain;
+}
+
+.form{
+ 
+  background-color:#ebebeb;
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap:3rem;
+ width:70vw;
+  padding:0rem;
+  padding-top: 2rem;
+  margin-left:-1rem
+
+}
+
+
+.upp{
+  margin-top: -4.5rem;
+}
+.form1{
+    margin-top: 7rem;
+ width:100vw;
+  background-color:#ebebeb;
+    padding-top: 1rem;
+     flex-direction: column;
+      justify-content: center;
+  align-content: center;
+
+
+}
+ 
+
+}

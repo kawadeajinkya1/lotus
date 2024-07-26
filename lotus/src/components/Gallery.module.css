@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+  background: #faf9d2;
+  padding: 7rem;
+}
+
+.container .imgcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 10px;
+}
+
+.container .imgcontainer .image {
+  height:15rem;
+  width: 20rem;
+  border: 10px solid #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.container .imgcontainer .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.2s linear;
+}
+
+.container .imgcontainer .image:hover img {
+  transform: scale(1.1);
+}
+
+.container .popupimage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  display: flex; /* changed */
+  justify-content: center; /* added */
+  align-items: center; /* added */
+}
+
+.container .popupimage span {
+  position: absolute;
+  top: 10px; /* adjusted */
+  right: 10px;
+  font-size: 30px; /* adjusted */
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.container .popupimage img {
+  border: 5px solid #fff;
+  border-radius: 5px;
+  max-width: 90%; /* adjusted */
+  max-height: 90%; /* added */
+  object-fit: contain; /* adjusted */
+}
+
+
+@media screen and (max-width: 768px) {
+  .container .popupimage img {
+    width: 100%;
+  }
+  .container {
+    padding: 4rem;
+  }
+
+  .image{
+    width: 20rem;
+    height:15rem;
+  }
+}
+
+
+

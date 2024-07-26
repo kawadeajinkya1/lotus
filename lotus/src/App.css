@@ -1,0 +1,357 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  font-family: "Poppins", sans-serif;
+}
+.custom-underline {
+  text-decoration: underline;
+  text-decoration-color: #FFA500; /* Warning color */
+  text-underline-offset: 7px; /* Offset from text */
+  opacity: 0.65; /* Opacity of underline */
+}
+.less-opacity {
+  opacity: 0.75; /* Adjust opacity value as needed */
+  color: black;
+}
+.location{
+  border : 2px soild black;
+}
+ .bg-image {
+  background-image: url("./Assets/b1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+}
+
+.blur-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /*backdrop-filter: blur(2px); */
+}
+
+.text-on-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  font-size: 24px;
+  color: #ffffff;
+} 
+
+@media screen and (max-width: 768px) {
+  .text-on-bg {
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .text-on-bg {
+    font-size: 16px;
+    padding: 10px;
+  }
+}
+@media screen and (max-width:356px){
+  .text-on-bg{
+    font-size:14px;
+    padding:7px;
+  }
+}
+
+@media screen and (max-width:100px){
+  .text-on-bg{
+    font-size: 10;
+    padding:5px;
+  }
+}
+  
+
+
+.footerStrip {
+  height: 50px;
+  background-color: #282c34;
+}
+
+/* .btn{
+  font-size: 16px;
+  padding: 2.5px;
+  margin: 0 5px;
+} */
+
+.myrows{
+  border: 3px solid green;
+  padding: 5px;
+}
+.mycols{
+  border: 3px solid red;
+}
+.mycontainer{
+  background-color: aqua;
+}
+#topHeader{
+  border-bottom: 1px solid #ebebeb;
+  text-align: right;
+}
+#topHeader a{
+  color: white;
+  font-weight: 600;
+  font-size: 0.89rem;
+  text-align: right;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+nav ul li a {
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+/* START : Footer */
+.full-footer{
+  background-color: #243c4f;  
+}
+/* .top-footer{
+  height:4rem;
+} */
+.middle-footer p{
+  color: white;
+}
+.middle-footer a{
+  color: white;
+  font-weight: 600;
+}
+.middle-footer h3{
+  color: white;
+}
+.bottom-footer{
+  background-color: #031b2e;
+}
+.bottom-footer p{
+  color: white;
+}
+.bg-image{
+  align-items: center;
+}
+.col-12{
+  height: 20px;
+}
+.img-margin {
+  height:20.7rem;
+  width: 35rem;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px; /* Adjust this value as needed */
+}
+
+
+.imst {
+  height:16rem;
+  width: 25rem;
+  margin-left: 8rem;
+  margin-right: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px; /* Adjust this value as needed */
+}
+
+.custom-margin {
+  margin: 20px;
+}
+.underline {
+  position: relative;
+}
+
+.underline::before,
+.underline::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  height: 3px;
+  background-color:#FFA500;
+  width: 15%; /* Adjust this value to control the length of the underline */
+}
+
+.underline::before {
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.underline::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.margin-paragraph {
+  margin-top: 10px; /* 10 pixels of margin on the top */
+  margin-bottom: 0px; /* 20 pixels of margin on the bottom */
+  margin-left: 40px; /* 5 pixels of margin on the left */
+  margin-right: 40px; /* 15 pixels of margin on the right */
+  text-align: justify;
+}
+.punderline {
+  position: relative;
+}
+
+.punderline::before,
+.punderline::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  height: 3px;
+  background-color:#FFA500;
+  width: 10%; /* Adjust this value to control the length of the underline */
+}
+
+.punderline::before {
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.punderline::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.margin {
+  margin-left: 150px;
+  margin-right: 80px;
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}
+.smargin {
+  margin-left: 80px;
+  margin-right: 150px;
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}
+/* Additional CSS for responsive design */
+@media (max-width: 767px) {
+  /* Stack the columns vertically on small screens */
+  .margin {
+    margin-left: 20px; 
+  }
+  .smargin {
+    margin-left: 20px;
+  }
+}
+
+#mygallery1
+{
+  height: 50px;
+  padding : 10px;
+
+}
+
+
+.ri{
+  display: flex;
+
+}
+
+.ri1{
+  display: flex;
+}
+
+  .ri2{
+    display: flex;
+    gap:2rem
+  }
+
+@media screen and (max-width:768px) {
+
+  .ri{
+    display: flex;
+    flex-direction: column;
+ 
+  } 
+
+.ri1{
+  display: flex;
+    flex-direction: column;
+}
+
+  .img-margin {
+    height:25rem;
+    width: 25rem;
+    margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+
+  .ri2{
+    display: flex;
+    gap:2rem;
+    margin-left: 2rem;
+  }
+  
+}
+@media (max-width: 767px) {
+  .apply-padding {
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:0px;
+    padding-bottom:0px;
+  }
+}
+.custom-bg-color {
+  background-color: #faf9d2;
+}
+
+
+
+
+@media screen and (max-width:768px)
+{
+  .imst {
+  height:15rem;
+  width: 15rem;
+  margin-left: 4.5rem;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px; /* Adjust this value as needed */
+}
+}
