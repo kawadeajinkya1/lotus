@@ -24,7 +24,8 @@ function App() {
           <Route path="/suite" element={<Suite />} />
           <Route path="/mini" element={<Mini />} />
           <Route path="/executive" element={<Excutive />} />
-        </Routes>
+         
+</Routes>
       </HashRouter>
     </>
   );
